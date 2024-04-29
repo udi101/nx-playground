@@ -1,0 +1,19 @@
+:host {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: start;
+  column-gap: 2rem;
+  align-content: center;
+  color: white;
+  margin: 0;
+  background-image: linear-gradient(#205090, #2060a0);
+  height: 28px;
+
+  .menu-item {
+    cursor: pointer;
+  }
+
+  .active {
+    color: orange;
+  }
+}

@@ -2,7 +2,9 @@
   "name": "@nx-playground/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start": "./run.sh"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~17.3.0",
@@ -13,6 +15,7 @@
     "@angular/platform-browser": "~17.3.0",
     "@angular/platform-browser-dynamic": "~17.3.0",
     "@angular/router": "~17.3.0",
+    "@ngxs/store": "^3.8.2",
     "@nx/angular": "18.3.3",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",

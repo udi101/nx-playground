@@ -1,5 +1,5 @@
 {
-  "extends": ["../../.eslintrc.json"],
+  "extends": ["../../../.eslintrc.json"],
   "ignorePatterns": ["!**/*"],
   "overrides": [
     {
@@ -13,11 +13,18 @@
           "error",
           {
             "type": "attribute",
-            "prefix": "app",
+            "prefix": "lib",
             "style": "camelCase"
           }
         ],
-        "@angular-eslint/component-selector": "off"
+        "@angular-eslint/component-selector": [
+          "error",
+          {
+            "type": "element",
+            "prefix": "lib",
+            "style": "kebab-case"
+          }
+        ]
       }
     },
     {
