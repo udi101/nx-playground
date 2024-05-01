@@ -1,0 +1,18 @@
+::ng-deep :root {
+  --border-radius: 8px;
+}
+
+$border-radius: var(--border-radius);
+
+.button {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  height: 1.5rem;
+  border-radius: $border-radius;
+  outline: none;
+
+  &:active {
+    /* Add styles that will apply when the button is pressed */
+    background-color: rgba(0, 0, 0, 0.1); /* Example: change background color */
+    border-color: rgba(0, 0, 0, 0.5); /* Example: darken the border */
+  }
+}
