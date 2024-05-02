@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ButtonComponent } from '../../../../../libs/shared/ui/button/button.component';
+import { ButtonComponent } from '@nx-playground/ui';
 
 @Component({
   selector: 'app-home',

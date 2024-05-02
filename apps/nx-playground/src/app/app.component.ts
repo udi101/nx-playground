@@ -9,7 +9,7 @@ import { UiComponent } from '@nx-playground/ui';
   imports: [NxWelcomeComponent, RouterModule, MenuComponent, UiComponent],
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrl: './app.component.scss',
 })
 export class AppComponent {
   title = 'nx-playground';

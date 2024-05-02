@@ -9,6 +9,7 @@ $border-radius: var(--border-radius);
   height: 1.5rem;
   border-radius: $border-radius;
   outline: none;
+  cursor: pointer;
 
   &:active {
     /* Add styles that will apply when the button is pressed */
