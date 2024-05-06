@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@nx-playground/ag-grid": ["libs/features/ag-grid/src/index.ts"],
       "@nx-playground/highcharts": ["libs/features/highcharts/src/index.ts"],
       "@nx-playground/ui": ["libs/shared/ui/src/index.ts"],
       "@nx-playground/utils": ["libs/shared/utils/src/index.ts"]

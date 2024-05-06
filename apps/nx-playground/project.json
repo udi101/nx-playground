@@ -4,23 +4,32 @@
   "projectType": "application",
   "prefix": "app",
   "sourceRoot": "apps/nx-playground/src",
-  "tags": [],
+  "tags": [
+    "type:app",
+    "scope:app"
+  ],
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:application",
-      "outputs": ["{options.outputPath}"],
+      "outputs": [
+        "{options.outputPath}"
+      ],
       "options": {
         "outputPath": "dist/apps/nx-playground",
         "index": "apps/nx-playground/src/index.html",
         "browser": "apps/nx-playground/src/main.ts",
-        "polyfills": ["zone.js"],
+        "polyfills": [
+          "zone.js"
+        ],
         "tsConfig": "apps/nx-playground/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
         "assets": [
           "apps/nx-playground/src/favicon.ico",
           "apps/nx-playground/src/assets"
         ],
-        "styles": ["apps/nx-playground/src/styles.scss"],
+        "styles": [
+          "apps/nx-playground/src/styles.scss"
+        ],
         "scripts": []
       },
       "configurations": {
@@ -70,7 +79,9 @@
     },
     "test": {
       "executor": "@nx/jest:jest",
-      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "outputs": [
+        "{workspaceRoot}/coverage/{projectRoot}"
+      ],
       "options": {
         "jestConfig": "apps/nx-playground/jest.config.ts"
       }

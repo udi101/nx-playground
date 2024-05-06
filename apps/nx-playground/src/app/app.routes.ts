@@ -8,7 +8,10 @@ export const appRoutes: Route[] = [
     path: 'highcharts',
     loadChildren: () => import('@nx-playground/highcharts').then(m => m.HIGHCHART_ROUTES)
   },
+  {
+    path: 'ag-grid',
+    loadChildren: () => import('@nx-playground/ag-grid').then(m => m.AG_GRID_ROUTES)
+  },
   { path: 'ngxs', component: HomeComponent },
-  { path: 'nice-grpc', component: HomeComponent },
+  { path: 'nice-grpc', component: HomeComponent }
 ];
-
