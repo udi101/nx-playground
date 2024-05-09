@@ -4,6 +4,7 @@ import { AgGridModule } from 'ag-grid-angular';
 import { ColDef, RowClickedEvent } from 'ag-grid-community';
 import 'ag-grid-community/styles/ag-grid.css';
 import 'ag-grid-community/styles/ag-theme-quartz.css';
+import { MyCellComponent } from './myCell/myCell.component';
 
 @Component({
   selector: 'lib-ag-grid',
@@ -18,14 +19,14 @@ export class AgGridComponent {
     { headerName: 'First Name', field: 'firstName' },
     { headerName: 'Last Name', field: 'lastName' },
     { headerName: 'Make', field: 'make', valueGetter: (c) => c.data.make + ' inc.' },
-    { headerName: 'Model', field: 'model' },
+    { headerName: 'Model', field: 'model', cellRenderer: MyCellComponent },
     { headerName: 'Price', field: 'price', valueFormatter: p => p.value.toLocaleString() + '$' }
   ];
 
   rowData = [
-    { firstName: 'Udi', lastName: 'Mazor', make: 'Toyota', model: 'Celica', price: 35000 },
-    { firstName: 'Avigail', lastName: 'Mazor', make: 'Ford', model: 'Mondeo', price: 32000 },
-    { firstName: 'Yulia', lastName: 'Haviv', make: 'Porsche', model: 'Boxster', price: 72000 }
+    { firstName: 'Udi', lastName: 'Mazor', make: 'Toyota', model: 'Chevrolet', price: 35000 },
+    { firstName: 'Avigail', lastName: 'Mazor', make: 'Ford', model: 'Chevrolet', price: 32000 },
+    { firstName: 'Yulia', lastName: 'Haviv', make: 'Porsche', model: 'Suzuki', price: 72000 }
   ];
 
   rowClicked(e: RowClickedEvent) {
