@@ -1,10 +1,11 @@
 <div>ag-grid works!</div>
 <div>
   <ag-grid-angular
-    style="height: 600px;display:block"
+    style="height: 600px;display:block;width:70vw"
     class="ag-theme-quartz"
     [rowData]="rowData"
     [columnDefs]="columnDefs"
+    [defaultColDef]="defaultColDef"
     (rowClicked)="rowClicked($event)">
   </ag-grid-angular>
 </div>

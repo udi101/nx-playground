@@ -24,12 +24,16 @@ export class AgGridComponent {
   ];
 
   rowData = [
-    { firstName: 'Udi', lastName: 'Mazor', make: 'Toyota', model: 'Chevrolet', price: 35000 },
-    { firstName: 'Avigail', lastName: 'Mazor', make: 'Ford', model: 'Chevrolet', price: 32000 },
-    { firstName: 'Yulia', lastName: 'Haviv', make: 'Porsche', model: 'Suzuki', price: 72000 }
+    { firstName: 'Udi', lastName: 'Mazor', make: 'Chevrolet', model: 'Orlando', price: 35000 },
+    { firstName: 'Avigail', lastName: 'Mazor', make: 'Chevrolet', model: 'Orlando', price: 32000 },
+    { firstName: 'Suzuki', lastName: 'Haviv', make: 'Porsche', model: 'Crossover', price: 72000 }
   ];
+  defaultColDef: ColDef = {
+    flex: 1,
+    minWidth: 100
+  };
 
   rowClicked(e: RowClickedEvent) {
-    console.log('This row was selected', e.data.firstName);
+    console.log('This row was selected', e.data);
   }
 }

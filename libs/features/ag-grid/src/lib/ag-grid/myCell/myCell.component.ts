@@ -2,25 +2,25 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ICellRendererAngularComp } from 'ag-grid-angular';
 import { ICellRendererParams } from 'ag-grid-community';
+import { ButtonComponent } from '@nx-playground/ui';
 
 @Component({
   selector: 'lib-my-cell',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, ButtonComponent],
   templateUrl: './myCell.component.html',
   styleUrl: './myCell.component.scss'
 })
 export class MyCellComponent implements ICellRendererAngularComp {
 
-  value: string = '';
+  value = '';
 
   onValueClick() {
     alert(`The value is: ${this.value}`);
   }
 
   agInit(params: ICellRendererParams): void {
-    this.value = params.value + 'eee';
-    console.log({ params });
+    this.value = params.value + '!';
   }
 
   refresh(params: ICellRendererParams<any>): boolean {
