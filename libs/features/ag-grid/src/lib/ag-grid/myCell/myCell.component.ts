@@ -21,7 +21,7 @@ export class MyCellComponent implements ICellRendererAngularComp {
   buttonText = '';
 
   onValueClick() {
-    alert(`The value is: ${this.value}`);
+    alert(`The model is: ${this.value}`);
   }
 
 

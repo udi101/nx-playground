@@ -8,6 +8,7 @@ import 'ag-grid-enterprise';
 import { MyCellComponent, MyCellParams } from './myCell/myCell.component';
 import { LicenseManager } from 'ag-grid-enterprise';
 
+
 @Component({
   selector: 'lib-ag-grid',
   standalone: true,
@@ -16,11 +17,14 @@ import { LicenseManager } from 'ag-grid-enterprise';
   styleUrl: './ag-grid.component.scss'
 })
 export class AgGridComponent implements OnInit {
-
   pagination = true;
   pageSize = 5;
   paginationPageSizeSelector = [5, 10];
   rowClassRules = { 'expensive': (row: any) => row.data.price > 100000 };
+
+  components = {
+    myCell: MyCellComponent
+  };
 
   ngOnInit() {
     LicenseManager.setLicenseKey(
@@ -34,14 +38,20 @@ export class AgGridComponent implements OnInit {
         return `<div> I - ${params.value}</div>`;
       }
     },
-    { headerName: 'Last Name', field: 'lastName' },
+    {
+      headerName: 'Last Name',
+      field: 'lastName'
+      // headerComponent: MyHeaderComponent,
+    },
     { headerName: 'Make', field: 'make', valueGetter: (c) => c.data.make + ' inc.' },
     {
       headerName: 'Model',
       field: 'model',
-      cellRendererSelector: (params: ICellRendererParams) => {
-        return { component: MyCellComponent, params: { buttonText: 'Show Model' } as MyCellParams };
-      }
+      cellRenderer: 'myCell',
+      cellRendererParams: { buttonText: 'Display Model' } as MyCellParams
+      // cellRendererSelector: (params: ICellRendererParams) => {
+      //   return { component: MyCellComponent, params: { buttonText: 'Show Model' } as MyCellParams };
+      // }
       // cellRenderer: MyCellComponent,
       // cellRendererParams: { buttonText: 'Show Model!' } as MyCellParams
     },
