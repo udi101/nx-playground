@@ -4,6 +4,10 @@ import { ICellRendererAngularComp } from 'ag-grid-angular';
 import { ICellRendererParams } from 'ag-grid-community';
 import { ButtonComponent } from '@nx-playground/ui';
 
+export interface MyCellParams {
+  buttonText: string;
+}
+
 @Component({
   selector: 'lib-my-cell',
   standalone: true,
@@ -14,16 +18,20 @@ import { ButtonComponent } from '@nx-playground/ui';
 export class MyCellComponent implements ICellRendererAngularComp {
 
   value = '';
+  buttonText = '';
 
   onValueClick() {
     alert(`The value is: ${this.value}`);
   }
 
-  agInit(params: ICellRendererParams): void {
+
+  agInit(params: ICellRendererParams & MyCellParams): void {
+    this.buttonText = params.buttonText;
     this.value = params.value + '!';
   }
 
-  refresh(params: ICellRendererParams<any>): boolean {
+  refresh(params: ICellRendererParams<MyCellParams>): boolean {
+    console.log(params.data?.buttonText);
     return false;
   }
 }

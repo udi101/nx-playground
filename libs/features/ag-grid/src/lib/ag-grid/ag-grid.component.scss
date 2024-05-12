@@ -1,0 +1,13 @@
+.ag-theme-quartz {
+  --ag-header-foreground-color: #205090;
+  //--ag-odd-row-background-color: #f5f5f5;
+  --ag-icon-font-color: red;
+  --ag-icon-font-code: '\f103'
+}
+
+::ng-deep {
+  .expensive {
+    background-color: #f0f5cf;
+  }
+}
+

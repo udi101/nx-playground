@@ -1,4 +1,4 @@
-<div>ag-grid works!</div>
+<div class="spacer" style="height: 20px"></div>
 <div>
   <ag-grid-angular
     style="height: 600px;display:block;width:70vw"
@@ -6,6 +6,11 @@
     [rowData]="rowData"
     [columnDefs]="columnDefs"
     [defaultColDef]="defaultColDef"
-    (rowClicked)="rowClicked($event)">
+    (rowClicked)="rowClicked($event)"
+    [pagination]="pagination"
+    [paginationPageSize]="pageSize"
+    [paginationPageSizeSelector]="paginationPageSizeSelector"
+    [rowClassRules]="rowClassRules"
+  >
   </ag-grid-angular>
 </div>

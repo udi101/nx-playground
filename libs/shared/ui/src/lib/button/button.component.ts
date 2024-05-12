@@ -6,14 +6,14 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './button.component.html',
-  styleUrl: './button.component.scss',
+  styleUrl: './button.component.scss'
 })
 export class ButtonComponent {
-  @Input() title = ''
-  // eslint-disable-next-line @angular-eslint/no-output-on-prefix
-  @Output() onClick = new EventEmitter();
+  // eslint-disable-next-line @angular-eslint/no-output-native
+  @Output() click = new EventEmitter();
 
-  onClickEmitter = () => {
-    console.log('onClick emit');
-  }
+  onClickEmitter = (event: MouseEvent) => {
+    event.stopPropagation();
+    this.click.emit();
+  };
 }
