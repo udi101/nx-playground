@@ -1,9 +1,9 @@
 <div class="spacer" style="height: 20px"></div>
 <div>
   <ag-grid-angular
-    style="height: 600px;display:block;width:70vw"
+    style="height: 395px;display:block;width:70vw"
     class="ag-theme-quartz"
-    [rowData]="rowData"
+    [rowData]="owners$ | async"
     [columnDefs]="columnDefs"
     [defaultColDef]="defaultColDef"
     [components]="components"

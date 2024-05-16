@@ -7,6 +7,12 @@ import 'ag-grid-community/styles/ag-theme-quartz.css';
 import 'ag-grid-enterprise';
 import { MyCellComponent, MyCellParams } from './myCell/myCell.component';
 import { LicenseManager } from 'ag-grid-enterprise';
+import { Store } from '@ngxs/store';
+import { GetOwners } from '../state/ag-grid-actions';
+import { Owner } from '../state/ag-grid.state';
+import { Observable } from 'rxjs';
+import { Dispatch } from '@ngxs-labs/dispatch-decorator';
+import { RowClassParams } from 'ag-grid-community/dist/types/core/entities/gridOptions';
 
 
 @Component({
@@ -17,20 +23,30 @@ import { LicenseManager } from 'ag-grid-enterprise';
   styleUrl: './ag-grid.component.scss'
 })
 export class AgGridComponent implements OnInit {
+  owners$: Observable<Owner[]> = new Observable<Owner[]>();
+
+  constructor(private store: Store) {
+    LicenseManager.setLicenseKey(
+      'CompanyName=CORALOGIX LTD,LicensedApplication=Coralogix,LicenseType=SingleApplication,LicensedConcurrentDeveloperCount=1,LicensedProductionInstancesCount=1,AssetReference=AG-031512,SupportServicesEnd=30_September_2023_[v2]_MTY5NjAyODQwMDAwMA==dcb0e88900ddef3ea12ee0e52f8d56f2'
+    );
+    this.owners$ = this.store.select<Owner[]>((state) => state.agGridState.owners);
+  }
+
+
+  ngOnInit(): void {
+    this.getAllOwners();
+  }
+
+
   pagination = true;
-  pageSize = 5;
+  pageSize = 10;
   paginationPageSizeSelector = [5, 10];
-  rowClassRules = { 'expensive': (row: any) => row.data.price > 100000 };
+  rowClassRules = { 'expensive': (row: RowClassParams<Owner>) => (row.data?.price || 0) > 100000 };
 
   components = {
     myCell: MyCellComponent
   };
 
-  ngOnInit() {
-    LicenseManager.setLicenseKey(
-      'CompanyName=CORALOGIX LTD,LicensedApplication=Coralogix,LicenseType=SingleApplication,LicensedConcurrentDeveloperCount=1,LicensedProductionInstancesCount=1,AssetReference=AG-031512,SupportServicesEnd=30_September_2023_[v2]_MTY5NjAyODQwMDAwMA==dcb0e88900ddef3ea12ee0e52f8d56f2'
-    );
-  }
 
   columnDefs: ColDef[] = [
     {
@@ -61,15 +77,6 @@ export class AgGridComponent implements OnInit {
     }
   ];
 
-  rowData = [
-    { firstName: 'Udi', lastName: 'Mazor', make: 'Chevrolet', model: 'Orlando', price: 35000 },
-    { firstName: 'Avigail', lastName: 'Mazor', make: 'Chevrolet', model: 'Orlando', price: 60000 },
-    { firstName: 'Yulia', lastName: 'Haviv', make: 'Porsche', model: 'Crossover', price: 172000 },
-    { firstName: 'Emma', lastName: 'Watson', make: 'Subaro', model: 'Forester', price: 72000 },
-    { firstName: 'Michal', lastName: 'Tzarfati', make: 'hyundai', model: 'i25', price: 72000 },
-    { firstName: 'Gal', lastName: 'Gadot', make: 'Audi', model: 'Q8', price: 92000 },
-    { firstName: 'Noa', lastName: 'Tishbi', make: 'BMW', model: 'X8', price: 112000 }
-  ];
   defaultColDef: ColDef = {
     enableRowGroup: true,
     flex: 1,
@@ -79,4 +86,7 @@ export class AgGridComponent implements OnInit {
   rowClicked(e: RowClickedEvent) {
     console.log('This row was selected', e.data);
   }
+
+  // This is a function that dispatches an action
+  @Dispatch() getAllOwners = () => new GetOwners();
 }
