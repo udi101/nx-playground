@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, importProvidersFrom, OnInit, Provider } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { AgGridModule } from 'ag-grid-angular';
 import { ColDef, ICellRendererParams, RowClickedEvent } from 'ag-grid-community';
@@ -7,9 +7,9 @@ import 'ag-grid-community/styles/ag-theme-quartz.css';
 import 'ag-grid-enterprise';
 import { MyCellComponent, MyCellParams } from './myCell/myCell.component';
 import { LicenseManager } from 'ag-grid-enterprise';
-import { Store } from '@ngxs/store';
-import { GetOwners } from '../state/ag-grid-actions';
-import { Owner } from '../state/ag-grid.state';
+import { NgxsModule, Select, Store } from '@ngxs/store';
+import { GetOwners, GetOwnersFromNet } from '../state/ag-grid-actions';
+import { AgGridState, Owner } from '../state/ag-grid.state';
 import { Observable } from 'rxjs';
 import { Dispatch } from '@ngxs-labs/dispatch-decorator';
 import { RowClassParams } from 'ag-grid-community/dist/types/core/entities/gridOptions';
@@ -23,18 +23,19 @@ import { RowClassParams } from 'ag-grid-community/dist/types/core/entities/gridO
   styleUrl: './ag-grid.component.scss'
 })
 export class AgGridComponent implements OnInit {
-  owners$: Observable<Owner[]> = new Observable<Owner[]>();
+  @Select(AgGridState.getOwners) owners$: Observable<Owner[]> | undefined;
 
   constructor(private store: Store) {
     LicenseManager.setLicenseKey(
       'CompanyName=CORALOGIX LTD,LicensedApplication=Coralogix,LicenseType=SingleApplication,LicensedConcurrentDeveloperCount=1,LicensedProductionInstancesCount=1,AssetReference=AG-031512,SupportServicesEnd=30_September_2023_[v2]_MTY5NjAyODQwMDAwMA==dcb0e88900ddef3ea12ee0e52f8d56f2'
     );
-    this.owners$ = this.store.select<Owner[]>((state) => state.agGridState.owners);
+    // this.owners$ = this.store.select<Owner[]>((state) => state.agGridState.owners);
   }
 
 
   ngOnInit(): void {
     this.getAllOwners();
+    this.getOwnersFromNet();
   }
 
 
@@ -83,10 +84,11 @@ export class AgGridComponent implements OnInit {
     minWidth: 100
   };
 
-  rowClicked(e: RowClickedEvent) {
-    console.log('This row was selected', e.data);
+  rowClicked(e: RowClickedEvent<Owner>) {
+    console.log('This row was selected', e.data?.make);
   }
 
   // This is a function that dispatches an action
   @Dispatch() getAllOwners = () => new GetOwners();
+  @Dispatch() getOwnersFromNet = () => new GetOwnersFromNet();
 }

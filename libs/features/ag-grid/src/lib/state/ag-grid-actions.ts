@@ -1,3 +1,18 @@
+import { Owner } from './ag-grid.state';
+import { Action } from '@ngxs/store';
+
 export class GetOwners {
-  static readonly type = '[Grid] GetOwners';
+  static readonly type = '[Grid] Get Owners';
+}
+
+export class AddOwner {
+  static readonly type = '[Grid] Add Owner';
+
+  constructor(public payload: Owner) {
+  }
+}
+
+export class GetOwnersFromNet {
+  static readonly type = '[Grid] Get Owners From Net';
+
 }

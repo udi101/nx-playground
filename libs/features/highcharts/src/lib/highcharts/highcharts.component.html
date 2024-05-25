@@ -1,4 +1,8 @@
-<div>highcharts works!</div>
 <div>
+  <highcharts-chart [options]="chartOptions" [Highcharts]="Highcharts"
+                    style="width: 50%; height: 400px; display: block"></highcharts-chart>
   <a routerLink="columns">Columns</a>
 </div>
+
+
+<router-outlet></router-outlet>
