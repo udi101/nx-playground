@@ -10,16 +10,31 @@
     "importHelpers": true,
     "target": "es2015",
     "module": "esnext",
-    "lib": ["es2020", "dom"],
+    "lib": [
+      "es2020",
+      "dom"
+    ],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
+    "strictPropertyInitialization": false,
     "baseUrl": ".",
     "paths": {
-      "@nx-playground/ag-grid": ["libs/features/ag-grid/src/index.ts"],
-      "@nx-playground/highcharts": ["libs/features/highcharts/src/index.ts"],
-      "@nx-playground/ui": ["libs/shared/ui/src/index.ts"],
-      "@nx-playground/utils": ["libs/shared/utils/src/index.ts"]
+      "@nx-playground/ag-grid": [
+        "libs/features/ag-grid/src/index.ts"
+      ],
+      "@nx-playground/highcharts": [
+        "libs/features/highcharts/src/index.ts"
+      ],
+      "@nx-playground/ui": [
+        "libs/shared/ui/src/index.ts"
+      ],
+      "@nx-playground/utils": [
+        "libs/shared/utils/src/index.ts"
+      ]
     }
   },
-  "exclude": ["node_modules", "tmp"]
+  "exclude": [
+    "node_modules",
+    "tmp"
+  ]
 }
