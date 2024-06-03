@@ -5,4 +5,21 @@
 </div>
 
 
-<router-outlet></router-outlet>
+<ng-template #placeHolder>
+  This is the placeHolder
+</ng-template>
+
+<ng-template #noImage let-imageName="imageName">
+  There is no Image {{ imageName }}
+</ng-template>
+
+<div>
+  <div class="loading-spinner">
+    This is the loading spinner
+  </div>
+  <ng-container [ngSwitch]="animal">
+    <ng-template [ngSwitchCase]="'dog'" >
+      This is the errors
+    </ng-template>
+  </ng-container>
+  <router-outlet></router-outlet>
