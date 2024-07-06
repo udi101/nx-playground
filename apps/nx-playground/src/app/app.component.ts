@@ -14,3 +14,4 @@ import { UiComponent } from '@nx-playground/ui';
 export class AppComponent {
   title = 'nx-playground';
 }
+

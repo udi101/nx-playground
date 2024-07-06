@@ -1,5 +1,4 @@
 import { Owner } from './ag-grid.state';
-import { Action } from '@ngxs/store';
 
 export class GetOwners {
   static readonly type = '[Grid] Get Owners';

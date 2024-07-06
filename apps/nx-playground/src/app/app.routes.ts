@@ -13,5 +13,8 @@ export const appRoutes: Route[] = [
     loadChildren: () => import('@nx-playground/ag-grid').then(m => m.AG_GRID_ROUTES)
   },
   { path: 'ngxs', component: HomeComponent },
-  { path: 'nice-grpc', component: HomeComponent }
+  {
+    path: 'nice-grpc',
+    loadChildren: () => import('@nx-playground/gRcp').then(m => m.GRCP_ROUTES)
+  }
 ];
