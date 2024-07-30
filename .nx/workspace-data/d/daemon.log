@@ -1,0 +1,434 @@
+[NX Daemon Server] - 2024-09-01T19:55:22.695Z - Started listening on: /tmp/be7d7748442b7c28e6e8/d.sock
+[NX Daemon Server] - 2024-09-01T19:55:22.696Z - [WATCHER]: Subscribed to changes within: /Users/udi.mazor/websites/nx-playground (native)
+[NX Daemon Server] - 2024-09-01T19:55:22.702Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-01T19:55:22.703Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-09-01T19:55:22.703Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-01T19:55:22.704Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-09-01T19:55:22.810Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-09-01T19:55:22.810Z - [REQUEST]: 
+[NX Daemon Server] - 2024-09-01T19:55:22.810Z - [REQUEST]: 
+[NX Daemon Server] - 2024-09-01T19:55:22.817Z - Time taken for 'loadNxPlugins' 105.75625ms
+[NX Daemon Server] - 2024-09-01T19:55:22.817Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-09-01T19:55:22.817Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-09-01T19:55:22.818Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-09-01T19:55:22.818Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-09-01T19:55:22.818Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-09-01T19:55:22.818Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-09-01T19:55:22.818Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-09-01T19:55:22.818Z - Established a connection. Number of open connections: 4
+[NX Daemon Server] - 2024-09-01T19:55:22.819Z - Closed a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-09-01T19:55:22.819Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-09-01T19:55:22.819Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-09-01T19:55:22.819Z - Handled GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-09-01T19:55:22.820Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-09-01T19:55:22.820Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-09-01T19:55:22.820Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-09-01T19:55:22.820Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-09-01T19:55:22.820Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-09-01T19:55:22.820Z - Handled GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-09-01T19:55:22.821Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-09-01T19:55:22.821Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-09-01T19:55:22.821Z - Handled GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-09-01T19:55:22.822Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-09-01T19:55:22.822Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-09-01T19:55:22.822Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-09-01T19:55:22.822Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-09-01T19:55:22.822Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-09-01T19:55:22.822Z - Handled GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-09-01T19:55:22.823Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-09-01T19:55:22.823Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-09-01T19:55:22.823Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-09-01T19:55:22.823Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-09-01T19:55:22.823Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-09-01T19:55:22.823Z - Handled GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-09-01T19:55:23.075Z - [REQUEST]: Responding to the client. handleNxWorkspaceFiles
+[NX Daemon Server] - 2024-09-01T19:55:23.075Z - Done responding to the client handleNxWorkspaceFiles
+[NX Daemon Server] - 2024-09-01T19:55:23.075Z - Handled GET_FILES_IN_DIRECTORY. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-09-01T19:55:23.086Z - Time taken for 'build-project-configs' 266.790833ms
+[NX Daemon Server] - 2024-09-01T19:55:23.124Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+  An error occurred while processing files for the @nx/eslint/plugin plugin.
+    - .eslintrc.json: (0 , workspace_context_1.globWithWorkspaceContext)(...).map is not a function
+      TypeError: (0 , workspace_context_1.globWithWorkspaceContext)(...).map is not a function
+          at exports.createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/@nx/eslint/src/plugins/plugin.js:30:14)
+          at /Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/utils.js:47:33
+          at Array.map (<anonymous>)
+          at createNodesFromFiles (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/utils.js:45:35)
+          at LoadedNxPlugin.createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/internal-api.js:27:76)
+          at LoadedNxPlugin.createNodes.<computed> (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/internal-api.js:44:34)
+          at createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:69:63)
+          at consumeMessage (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:32)
+          at /Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:21:47
+          at Socket.<anonymous> (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/utils/consume-messages-from-socket.js:13:17)
+    - apps/nx-playground/.eslintrc.json: (0 , workspace_context_1.globWithWorkspaceContext)(...).map is not a function
+      TypeError: (0 , workspace_context_1.globWithWorkspaceContext)(...).map is not a function
+          at exports.createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/@nx/eslint/src/plugins/plugin.js:30:14)
+          at /Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/utils.js:47:33
+          at Array.map (<anonymous>)
+          at createNodesFromFiles (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/utils.js:45:35)
+          at LoadedNxPlugin.createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/internal-api.js:27:76)
+          at LoadedNxPlugin.createNodes.<computed> (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/internal-api.js:44:34)
+          at createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:69:63)
+          at consumeMessage (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:32)
+          at /Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:21:47
+          at Socket.<anonymous> (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/utils/consume-messages-from-socket.js:13:17)
+    - apps/nx-playground-e2e/.eslintrc.json: (0 , workspace_context_1.globWithWorkspaceContext)(...).map is not a function
+      TypeError: (0 , workspace_context_1.globWithWorkspaceContext)(...).map is not a function
+          at exports.createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/@nx/eslint/src/plugins/plugin.js:30:14)
+          at /Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/utils.js:47:33
+          at Array.map (<anonymous>)
+          at createNodesFromFiles (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/utils.js:45:35)
+          at LoadedNxPlugin.createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/internal-api.js:27:76)
+          at LoadedNxPlugin.createNodes.<computed> (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/internal-api.js:44:34)
+          at createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:69:63)
+          at consumeMessage (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:32)
+          at /Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:21:47
+          at Socket.<anonymous> (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/utils/consume-messages-from-socket.js:13:17)
+    - libs/features/ag-grid/.eslintrc.json: (0 , workspace_context_1.globWithWorkspaceContext)(...).map is not a function
+      TypeError: (0 , workspace_context_1.globWithWorkspaceContext)(...).map is not a function
+          at exports.createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/@nx/eslint/src/plugins/plugin.js:30:14)
+          at /Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/utils.js:47:33
+          at Array.map (<anonymous>)
+          at createNodesFromFiles (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/utils.js:45:35)
+          at LoadedNxPlugin.createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/internal-api.js:27:76)
+          at LoadedNxPlugin.createNodes.<computed> (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/internal-api.js:44:34)
+          at createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:69:63)
+          at consumeMessage (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:32)
+          at /Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:21:47
+          at Socket.<anonymous> (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/utils/consume-messages-from-socket.js:13:17)
+    - libs/features/gRpc/.eslintrc.json: (0 , workspace_context_1.globWithWorkspaceContext)(...).map is not a function
+      TypeError: (0 , workspace_context_1.globWithWorkspaceContext)(...).map is not a function
+          at exports.createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/@nx/eslint/src/plugins/plugin.js:30:14)
+          at /Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/utils.js:47:33
+          at Array.map (<anonymous>)
+          at createNodesFromFiles (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/utils.js:45:35)
+          at LoadedNxPlugin.createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/internal-api.js:27:76)
+          at LoadedNxPlugin.createNodes.<computed> (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/internal-api.js:44:34)
+          at createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:69:63)
+          at consumeMessage (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:32)
+          at /Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:21:47
+          at Socket.<anonymous> (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/utils/consume-messages-from-socket.js:13:17)
+    - libs/features/highcharts/.eslintrc.json: (0 , workspace_context_1.globWithWorkspaceContext)(...).map is not a function
+      TypeError: (0 , workspace_context_1.globWithWorkspaceContext)(...).map is not a function
+          at exports.createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/@nx/eslint/src/plugins/plugin.js:30:14)
+          at /Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/utils.js:47:33
+          at Array.map (<anonymous>)
+          at createNodesFromFiles (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/utils.js:45:35)
+          at LoadedNxPlugin.createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/internal-api.js:27:76)
+          at LoadedNxPlugin.createNodes.<computed> (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/internal-api.js:44:34)
+          at createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:69:63)
+          at consumeMessage (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:32)
+          at /Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:21:47
+          at Socket.<anonymous> (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/utils/consume-messages-from-socket.js:13:17)
+    - libs/shared/ui/.eslintrc.json: (0 , workspace_context_1.globWithWorkspaceContext)(...).map is not a function
+      TypeError: (0 , workspace_context_1.globWithWorkspaceContext)(...).map is not a function
+          at exports.createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/@nx/eslint/src/plugins/plugin.js:30:14)
+          at /Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/utils.js:47:33
+          at Array.map (<anonymous>)
+          at createNodesFromFiles (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/utils.js:45:35)
+          at LoadedNxPlugin.createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/internal-api.js:27:76)
+          at LoadedNxPlugin.createNodes.<computed> (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/internal-api.js:44:34)
+          at createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:69:63)
+          at consumeMessage (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:32)
+          at /Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:21:47
+          at Socket.<anonymous> (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/utils/consume-messages-from-socket.js:13:17)
+    - libs/shared/utils/.eslintrc.json: (0 , workspace_context_1.globWithWorkspaceContext)(...).map is not a function
+      TypeError: (0 , workspace_context_1.globWithWorkspaceContext)(...).map is not a function
+          at exports.createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/@nx/eslint/src/plugins/plugin.js:30:14)
+          at /Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/utils.js:47:33
+          at Array.map (<anonymous>)
+          at createNodesFromFiles (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/utils.js:45:35)
+          at LoadedNxPlugin.createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/internal-api.js:27:76)
+          at LoadedNxPlugin.createNodes.<computed> (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/internal-api.js:44:34)
+          at createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:69:63)
+          at consumeMessage (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:32)
+          at /Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:21:47
+          at Socket.<anonymous> (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/utils/consume-messages-from-socket.js:13:17)
+[NX Daemon Server] - 2024-09-01T19:55:23.125Z - Time taken for 'total execution time for createProjectGraph()' 38.940207999999984ms
+[NX Daemon Server] - 2024-09-01T19:55:23.126Z - Done responding to the client null
+[NX Daemon Server] - 2024-09-01T19:55:23.126Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 419. Response time: 3.
+[NX Daemon Server] - 2024-09-01T19:55:23.128Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-09-01T19:55:31.619Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-09-01T19:55:31.619Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-09-01T19:55:31.619Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-09-01T19:55:31.621Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-09-01T19:55:31.626Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-09-01T19:55:31.626Z - [REQUEST]: 
+[NX Daemon Server] - 2024-09-01T19:55:31.626Z - [REQUEST]: 
+[NX Daemon Server] - 2024-09-01T19:55:31.630Z - Time taken for 'hash changed files from watcher' 4.9337500000001455ms
+[NX Daemon Server] - 2024-09-01T19:55:31.631Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-09-01T19:55:31.631Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-09-01T19:55:31.631Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-09-01T19:55:31.632Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-09-01T19:55:31.632Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-09-01T19:55:31.632Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-09-01T19:55:31.633Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-09-01T19:55:31.634Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-09-01T19:55:31.634Z - Handled GLOB. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-09-01T19:55:31.635Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-09-01T19:55:31.635Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-09-01T19:55:31.635Z - Handled GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-09-01T19:55:31.636Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-09-01T19:55:31.636Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-09-01T19:55:31.636Z - Handled GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-09-01T19:55:31.637Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-09-01T19:55:31.637Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-09-01T19:55:31.637Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-09-01T19:55:31.637Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-09-01T19:55:31.637Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-09-01T19:55:31.637Z - Handled GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-09-01T19:55:31.638Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-09-01T19:55:31.638Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-09-01T19:55:31.638Z - Handled GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-09-01T19:55:31.638Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-09-01T19:55:31.638Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-09-01T19:55:31.638Z - Handled GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-09-01T19:55:31.643Z - Time taken for 'build-project-configs' 14.34887499999968ms
+[NX Daemon Server] - 2024-09-01T19:55:31.657Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+  An error occurred while processing files for the @nx/eslint/plugin plugin.
+    - .eslintrc.json: (0 , workspace_context_1.globWithWorkspaceContext)(...).map is not a function
+      TypeError: (0 , workspace_context_1.globWithWorkspaceContext)(...).map is not a function
+          at exports.createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/@nx/eslint/src/plugins/plugin.js:30:14)
+          at /Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/utils.js:47:33
+          at Array.map (<anonymous>)
+          at createNodesFromFiles (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/utils.js:45:35)
+          at LoadedNxPlugin.createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/internal-api.js:27:76)
+          at LoadedNxPlugin.createNodes.<computed> (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/internal-api.js:44:34)
+          at createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:69:63)
+          at consumeMessage (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:32)
+          at /Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:21:47
+          at Socket.<anonymous> (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/utils/consume-messages-from-socket.js:13:17)
+    - apps/nx-playground/.eslintrc.json: (0 , workspace_context_1.globWithWorkspaceContext)(...).map is not a function
+      TypeError: (0 , workspace_context_1.globWithWorkspaceContext)(...).map is not a function
+          at exports.createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/@nx/eslint/src/plugins/plugin.js:30:14)
+          at /Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/utils.js:47:33
+          at Array.map (<anonymous>)
+          at createNodesFromFiles (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/utils.js:45:35)
+          at LoadedNxPlugin.createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/internal-api.js:27:76)
+          at LoadedNxPlugin.createNodes.<computed> (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/internal-api.js:44:34)
+          at createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:69:63)
+          at consumeMessage (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:32)
+          at /Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:21:47
+          at Socket.<anonymous> (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/utils/consume-messages-from-socket.js:13:17)
+    - apps/nx-playground-e2e/.eslintrc.json: (0 , workspace_context_1.globWithWorkspaceContext)(...).map is not a function
+      TypeError: (0 , workspace_context_1.globWithWorkspaceContext)(...).map is not a function
+          at exports.createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/@nx/eslint/src/plugins/plugin.js:30:14)
+          at /Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/utils.js:47:33
+          at Array.map (<anonymous>)
+          at createNodesFromFiles (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/utils.js:45:35)
+          at LoadedNxPlugin.createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/internal-api.js:27:76)
+          at LoadedNxPlugin.createNodes.<computed> (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/internal-api.js:44:34)
+          at createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:69:63)
+          at consumeMessage (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:32)
+          at /Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:21:47
+          at Socket.<anonymous> (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/utils/consume-messages-from-socket.js:13:17)
+    - libs/features/ag-grid/.eslintrc.json: (0 , workspace_context_1.globWithWorkspaceContext)(...).map is not a function
+      TypeError: (0 , workspace_context_1.globWithWorkspaceContext)(...).map is not a function
+          at exports.createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/@nx/eslint/src/plugins/plugin.js:30:14)
+          at /Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/utils.js:47:33
+          at Array.map (<anonymous>)
+          at createNodesFromFiles (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/utils.js:45:35)
+          at LoadedNxPlugin.createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/internal-api.js:27:76)
+          at LoadedNxPlugin.createNodes.<computed> (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/internal-api.js:44:34)
+          at createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:69:63)
+          at consumeMessage (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:32)
+          at /Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:21:47
+          at Socket.<anonymous> (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/utils/consume-messages-from-socket.js:13:17)
+    - libs/features/gRpc/.eslintrc.json: (0 , workspace_context_1.globWithWorkspaceContext)(...).map is not a function
+      TypeError: (0 , workspace_context_1.globWithWorkspaceContext)(...).map is not a function
+          at exports.createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/@nx/eslint/src/plugins/plugin.js:30:14)
+          at /Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/utils.js:47:33
+          at Array.map (<anonymous>)
+          at createNodesFromFiles (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/utils.js:45:35)
+          at LoadedNxPlugin.createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/internal-api.js:27:76)
+          at LoadedNxPlugin.createNodes.<computed> (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/internal-api.js:44:34)
+          at createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:69:63)
+          at consumeMessage (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:32)
+          at /Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:21:47
+          at Socket.<anonymous> (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/utils/consume-messages-from-socket.js:13:17)
+    - libs/features/highcharts/.eslintrc.json: (0 , workspace_context_1.globWithWorkspaceContext)(...).map is not a function
+      TypeError: (0 , workspace_context_1.globWithWorkspaceContext)(...).map is not a function
+          at exports.createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/@nx/eslint/src/plugins/plugin.js:30:14)
+          at /Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/utils.js:47:33
+          at Array.map (<anonymous>)
+          at createNodesFromFiles (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/utils.js:45:35)
+          at LoadedNxPlugin.createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/internal-api.js:27:76)
+          at LoadedNxPlugin.createNodes.<computed> (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/internal-api.js:44:34)
+          at createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:69:63)
+          at consumeMessage (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:32)
+          at /Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:21:47
+          at Socket.<anonymous> (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/utils/consume-messages-from-socket.js:13:17)
+    - libs/shared/ui/.eslintrc.json: (0 , workspace_context_1.globWithWorkspaceContext)(...).map is not a function
+      TypeError: (0 , workspace_context_1.globWithWorkspaceContext)(...).map is not a function
+          at exports.createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/@nx/eslint/src/plugins/plugin.js:30:14)
+          at /Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/utils.js:47:33
+          at Array.map (<anonymous>)
+          at createNodesFromFiles (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/utils.js:45:35)
+          at LoadedNxPlugin.createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/internal-api.js:27:76)
+          at LoadedNxPlugin.createNodes.<computed> (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/internal-api.js:44:34)
+          at createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:69:63)
+          at consumeMessage (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:32)
+          at /Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:21:47
+          at Socket.<anonymous> (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/utils/consume-messages-from-socket.js:13:17)
+    - libs/shared/utils/.eslintrc.json: (0 , workspace_context_1.globWithWorkspaceContext)(...).map is not a function
+      TypeError: (0 , workspace_context_1.globWithWorkspaceContext)(...).map is not a function
+          at exports.createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/@nx/eslint/src/plugins/plugin.js:30:14)
+          at /Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/utils.js:47:33
+          at Array.map (<anonymous>)
+          at createNodesFromFiles (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/utils.js:45:35)
+          at LoadedNxPlugin.createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/internal-api.js:27:76)
+          at LoadedNxPlugin.createNodes.<computed> (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/internal-api.js:44:34)
+          at createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:69:63)
+          at consumeMessage (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:32)
+          at /Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:21:47
+          at Socket.<anonymous> (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/utils/consume-messages-from-socket.js:13:17)
+[NX Daemon Server] - 2024-09-01T19:55:31.658Z - Time taken for 'total execution time for createProjectGraph()' 14.399792000000161ms
+[NX Daemon Server] - 2024-09-01T19:55:31.659Z - Done responding to the client null
+[NX Daemon Server] - 2024-09-01T19:55:31.659Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 36. Response time: 2.
+[NX Daemon Server] - 2024-09-01T19:55:31.662Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-09-01T19:55:34.374Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-09-01T19:55:34.374Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-09-01T19:55:34.375Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-09-01T19:55:34.376Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-09-01T19:55:34.381Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-09-01T19:55:34.381Z - [REQUEST]: 
+[NX Daemon Server] - 2024-09-01T19:55:34.381Z - [REQUEST]: 
+[NX Daemon Server] - 2024-09-01T19:55:34.385Z - Time taken for 'hash changed files from watcher' 4.790624999999636ms
+[NX Daemon Server] - 2024-09-01T19:55:34.386Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-09-01T19:55:34.386Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-09-01T19:55:34.386Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-09-01T19:55:34.386Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-09-01T19:55:34.386Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-09-01T19:55:34.386Z - Handled GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-09-01T19:55:34.386Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-09-01T19:55:34.387Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-09-01T19:55:34.387Z - Handled GLOB. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-09-01T19:55:34.387Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-09-01T19:55:34.387Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-09-01T19:55:34.387Z - Handled GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-09-01T19:55:34.387Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-09-01T19:55:34.388Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-09-01T19:55:34.388Z - Handled GLOB. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-09-01T19:55:34.388Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-09-01T19:55:34.388Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-09-01T19:55:34.388Z - Handled GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-09-01T19:55:34.389Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-09-01T19:55:34.389Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-09-01T19:55:34.389Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-09-01T19:55:34.389Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-09-01T19:55:34.389Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-09-01T19:55:34.389Z - Handled GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-09-01T19:55:34.389Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-09-01T19:55:34.389Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-09-01T19:55:34.389Z - Handled GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-09-01T19:55:34.393Z - Time taken for 'build-project-configs' 9.978291999999783ms
+[NX Daemon Server] - 2024-09-01T19:55:34.405Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+  An error occurred while processing files for the @nx/eslint/plugin plugin.
+    - .eslintrc.json: (0 , workspace_context_1.globWithWorkspaceContext)(...).map is not a function
+      TypeError: (0 , workspace_context_1.globWithWorkspaceContext)(...).map is not a function
+          at exports.createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/@nx/eslint/src/plugins/plugin.js:30:14)
+          at /Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/utils.js:47:33
+          at Array.map (<anonymous>)
+          at createNodesFromFiles (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/utils.js:45:35)
+          at LoadedNxPlugin.createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/internal-api.js:27:76)
+          at LoadedNxPlugin.createNodes.<computed> (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/internal-api.js:44:34)
+          at createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:69:63)
+          at consumeMessage (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:32)
+          at /Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:21:47
+          at Socket.<anonymous> (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/utils/consume-messages-from-socket.js:13:17)
+    - apps/nx-playground/.eslintrc.json: (0 , workspace_context_1.globWithWorkspaceContext)(...).map is not a function
+      TypeError: (0 , workspace_context_1.globWithWorkspaceContext)(...).map is not a function
+          at exports.createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/@nx/eslint/src/plugins/plugin.js:30:14)
+          at /Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/utils.js:47:33
+          at Array.map (<anonymous>)
+          at createNodesFromFiles (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/utils.js:45:35)
+          at LoadedNxPlugin.createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/internal-api.js:27:76)
+          at LoadedNxPlugin.createNodes.<computed> (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/internal-api.js:44:34)
+          at createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:69:63)
+          at consumeMessage (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:32)
+          at /Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:21:47
+          at Socket.<anonymous> (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/utils/consume-messages-from-socket.js:13:17)
+    - apps/nx-playground-e2e/.eslintrc.json: (0 , workspace_context_1.globWithWorkspaceContext)(...).map is not a function
+      TypeError: (0 , workspace_context_1.globWithWorkspaceContext)(...).map is not a function
+          at exports.createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/@nx/eslint/src/plugins/plugin.js:30:14)
+          at /Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/utils.js:47:33
+          at Array.map (<anonymous>)
+          at createNodesFromFiles (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/utils.js:45:35)
+          at LoadedNxPlugin.createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/internal-api.js:27:76)
+          at LoadedNxPlugin.createNodes.<computed> (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/internal-api.js:44:34)
+          at createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:69:63)
+          at consumeMessage (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:32)
+          at /Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:21:47
+          at Socket.<anonymous> (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/utils/consume-messages-from-socket.js:13:17)
+    - libs/features/ag-grid/.eslintrc.json: (0 , workspace_context_1.globWithWorkspaceContext)(...).map is not a function
+      TypeError: (0 , workspace_context_1.globWithWorkspaceContext)(...).map is not a function
+          at exports.createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/@nx/eslint/src/plugins/plugin.js:30:14)
+          at /Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/utils.js:47:33
+          at Array.map (<anonymous>)
+          at createNodesFromFiles (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/utils.js:45:35)
+          at LoadedNxPlugin.createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/internal-api.js:27:76)
+          at LoadedNxPlugin.createNodes.<computed> (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/internal-api.js:44:34)
+          at createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:69:63)
+          at consumeMessage (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:32)
+          at /Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:21:47
+          at Socket.<anonymous> (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/utils/consume-messages-from-socket.js:13:17)
+    - libs/features/gRpc/.eslintrc.json: (0 , workspace_context_1.globWithWorkspaceContext)(...).map is not a function
+      TypeError: (0 , workspace_context_1.globWithWorkspaceContext)(...).map is not a function
+          at exports.createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/@nx/eslint/src/plugins/plugin.js:30:14)
+          at /Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/utils.js:47:33
+          at Array.map (<anonymous>)
+          at createNodesFromFiles (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/utils.js:45:35)
+          at LoadedNxPlugin.createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/internal-api.js:27:76)
+          at LoadedNxPlugin.createNodes.<computed> (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/internal-api.js:44:34)
+          at createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:69:63)
+          at consumeMessage (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:32)
+          at /Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:21:47
+          at Socket.<anonymous> (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/utils/consume-messages-from-socket.js:13:17)
+    - libs/features/highcharts/.eslintrc.json: (0 , workspace_context_1.globWithWorkspaceContext)(...).map is not a function
+      TypeError: (0 , workspace_context_1.globWithWorkspaceContext)(...).map is not a function
+          at exports.createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/@nx/eslint/src/plugins/plugin.js:30:14)
+          at /Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/utils.js:47:33
+          at Array.map (<anonymous>)
+          at createNodesFromFiles (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/utils.js:45:35)
+          at LoadedNxPlugin.createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/internal-api.js:27:76)
+          at LoadedNxPlugin.createNodes.<computed> (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/internal-api.js:44:34)
+          at createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:69:63)
+          at consumeMessage (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:32)
+          at /Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:21:47
+          at Socket.<anonymous> (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/utils/consume-messages-from-socket.js:13:17)
+    - libs/shared/ui/.eslintrc.json: (0 , workspace_context_1.globWithWorkspaceContext)(...).map is not a function
+      TypeError: (0 , workspace_context_1.globWithWorkspaceContext)(...).map is not a function
+          at exports.createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/@nx/eslint/src/plugins/plugin.js:30:14)
+          at /Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/utils.js:47:33
+          at Array.map (<anonymous>)
+          at createNodesFromFiles (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/utils.js:45:35)
+          at LoadedNxPlugin.createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/internal-api.js:27:76)
+          at LoadedNxPlugin.createNodes.<computed> (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/internal-api.js:44:34)
+          at createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:69:63)
+          at consumeMessage (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:32)
+          at /Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:21:47
+          at Socket.<anonymous> (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/utils/consume-messages-from-socket.js:13:17)
+    - libs/shared/utils/.eslintrc.json: (0 , workspace_context_1.globWithWorkspaceContext)(...).map is not a function
+      TypeError: (0 , workspace_context_1.globWithWorkspaceContext)(...).map is not a function
+          at exports.createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/@nx/eslint/src/plugins/plugin.js:30:14)
+          at /Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/utils.js:47:33
+          at Array.map (<anonymous>)
+          at createNodesFromFiles (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/utils.js:45:35)
+          at LoadedNxPlugin.createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/internal-api.js:27:76)
+          at LoadedNxPlugin.createNodes.<computed> (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/internal-api.js:44:34)
+          at createNodes (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:69:63)
+          at consumeMessage (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:32)
+          at /Users/udi.mazor/websites/nx-playground/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:21:47
+          at Socket.<anonymous> (/Users/udi.mazor/websites/nx-playground/node_modules/nx/src/utils/consume-messages-from-socket.js:13:17)
+[NX Daemon Server] - 2024-09-01T19:55:34.406Z - Time taken for 'total execution time for createProjectGraph()' 12.57300000000032ms
+[NX Daemon Server] - 2024-09-01T19:55:34.408Z - Done responding to the client null
+[NX Daemon Server] - 2024-09-01T19:55:34.408Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 29. Response time: 3.
+[NX Daemon Server] - 2024-09-01T19:55:34.410Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-09-01T19:56:06.255Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-01T19:56:06.255Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-01T19:56:06.255Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-09-01T19:56:06.255Z - [WATCHER]: Stopping the watcher for /Users/udi.mazor/websites/nx-playground (sources)
+[NX Daemon Server] - 2024-09-01T19:56:06.255Z - [WATCHER]: Stopping the watcher for /Users/udi.mazor/websites/nx-playground (outputs)
+[NX Daemon Server] - 2024-09-01T19:56:06.256Z - Server stopped because: "NX_VERSION_CHANGED"

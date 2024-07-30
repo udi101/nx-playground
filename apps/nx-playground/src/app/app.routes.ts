@@ -15,6 +15,6 @@ export const appRoutes: Route[] = [
   { path: 'ngxs', component: HomeComponent },
   {
     path: 'nice-grpc',
-    loadChildren: () => import('@nx-playground/gRcp').then(m => m.GRCP_ROUTES)
+    loadChildren: () => import('@nx-playground/gRpc').then(m => m.GRCP_ROUTES)
   }
 ];
