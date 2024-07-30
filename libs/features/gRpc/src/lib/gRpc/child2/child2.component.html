@@ -1,0 +1,10 @@
+<p>child2 works!</p>
+<div>{{ getCounter }}</div>
+
+
+<input type="text" (input)="onInput($event)" [value]="data" />
+{{ data }}
+<br />
+<div>localInterval: {{ localInterval }}</div>
+<div>localIntervalSignal: {{ localIntervalSignal() }}</div>
+<button (click)="onClick()">Click Here</button> {{ clickCountSignal() }}

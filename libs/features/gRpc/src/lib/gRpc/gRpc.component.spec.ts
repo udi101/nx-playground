@@ -1,5 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { GRcpComponent } from './gRcp.component';
+import { GRcpComponent } from './gRpc.component';
 
 describe('GRcpComponent', () => {
   let component: GRcpComponent;
@@ -7,7 +7,7 @@ describe('GRcpComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [GRcpComponent],
+      imports: [GRcpComponent]
     }).compileComponents();
 
     fixture = TestBed.createComponent(GRcpComponent);
